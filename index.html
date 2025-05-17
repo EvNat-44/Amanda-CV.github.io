@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Amanda Evans Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="loader-wrapper">
+            <div class="loader"></div>
+            <div class="loading-bar">
+                <div class="percentage"></div>
+            </div>
+        </div>
+        <div class="content hidden">
+        <h1>Welcome</h1>
+        <p>Loading...</p>
+        </div>
+        <div class="name hidden">
+        <h1>Amanda Evans CV Website</h1>
+            <button id="aboutBtn" onclick="toggleAboutContent()">More About Me</button>
+            <div id="aboutContent" class="content hidden">
+                <!-- Content area for "More About Me" -->
+                <h2>Who I Am…</h2>
+                <p>
+                    Leader. Motivator. Teacher. Problem-solver. Dedicated. Approachable. 
+                    <br>
+                    <br>
+                    I feel that these phrases describe me best as a person. It is my passion to strive to more, to be better and to be the best version of myself. I am not self-centred, contrastingly I strive to be the person that other people can rely on, a helping hand, to be a person that people can follow in times of crisis. I want to prove that hard, persistent work can set you apart from the majority. 
+                    <br>
+                    These descriptors reflect my multifaceted identity and drive me to be my best self as a committed
+                    team player. As a grounded leader, I focus on motivating and teaching others, believing in the
+                    importance of both professional and personal growth. I am convinced that with consistent effort
+                    and a proactive mindset, anyone can stand out for the right reasons. 
+                    <br>
+                    <br>
+                    Throughout my career, I have maintained a balance between humility and a willingness to
+                    embrace new ideas that challenge my perspectives. My goal is to create a lasting, positive impact
+                    and leave a meaningful legacy behind. 
+                </p>
+            </div>
+            <button id="skillsBtn" onclick="toggleSkillsContent()">My Skill Set</button>
+            <div id="skillsContent" class="content hidden">
+                <!-- Content area for "Skills" -->
+                <h2 align="left">A list of my Technical Skills:</h2>
+                <ol align="left">
+                    <li>Managerial Diploma
+                        <ul>
+                            <li>Leadership Communication</li>
+                            <li>Conflict in Organisations</li>
+                            <li>Practical Diversity</li>
+                            <li>Workplace Mentoring</li>
+                            <li>Stress at Work</li>
+                            <li>Positive Thinking as Work</li>
+                            <li>Emotional Intelligence</li>
+                            <li>Hiring the Best</li>
+                        </ul>
+                    </li>
+                    <li>NNC Computer Literacy Diploma
+                        <ul>
+                            <li>Word</li>
+                            <li>PowerPoint</li>
+                            <li>Excel</li>
+                        </ul>
+                    </li>
+                    <li>In-house experience
+                        <ul>
+                            <li>AS400</li>
+                            <li>Exigo</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h2 align="left">A few of my Soft Skills:</h2>
+                <ol align="left">
+                    <li>Leadership</li>
+                    <li>Communication</li>
+                    <li>Project Management</li>                
+                    <li>Problem-Solving</li>
+                    <li>Teamwork</li>
+                    <li>Creativity</li>
+                    <li>Adaptability</li>
+                </ol>
+            </div>
+            <button id="cvBtn">View my CV here</button>
+            <div id="cvImage" class="hidden">
+                <p>Click on the Image below</p>
+                <a href="https://drive.google.com/file/d/1X73KLsfXSFza_ZVOtXWO-XHL9YZN6q-u/view?usp=sharing" alt="Google Drive - Amanda Evans CV" target="blank"><img src="logo.jpg" alt="Logo" /></a>
+            </div>
+            <button onclick="openWebsiteInNewTab()">Click to view my Full Academic Record</button>
+            
+            <button id="contactBtn" onclick="toggleContactDetails()">My Contact Details</button>
+            <div id="contactDetails" class="hidden">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:eva0915ama@gmail.com"></a>eva0915ama@gmail.com</p>
+                <p>Phone: +27 76 758 6812</p>
+                <p>Address: 1 Carney Street, Minnebron, Johannesburg, South Africa</p>
+            </div>
+            
+        </div>
+        <!--<button id="enterBtn" class="hidden">Enter</button>-->
+          
+    <script src="events.js"></script>
+    </body>
+</html>
