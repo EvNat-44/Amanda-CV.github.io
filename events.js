@@ -82,6 +82,16 @@ function openWebsiteInNewTab() {
   anchor.click(); // Simulate a click on the anchor to open the link
 }
 
+function openWebsiteInNewTab1() {
+  var url = 'https://drive.google.com/file/d/1B-nd625LOksOMI3VS3oeoQ8vnoV4fwHy/view?usp=sharing'; 
+
+  // Create an anchor element
+  var anchor = document.createElement('a');
+  anchor.href = url; // Set the URL
+  anchor.target = '_blank'; // Open in a new tab
+  anchor.click(); // Simulate a click on the anchor to open the link
+}
+
 function toggleContactDetails() {
   var contactDetails = document.getElementById('contactDetails');
   if (contactDetails.classList.contains('hidden')) {
