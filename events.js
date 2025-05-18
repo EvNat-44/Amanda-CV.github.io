@@ -73,7 +73,7 @@ function toggleProjectsContent() {
 }
 
 function openWebsiteInNewTab() {
-  var url = 'https://drive.google.com/file/d/1_fASI2xzMHzz29Bhf7hCG6nfYvpMj3H5/view?usp=sharing'; 
+  var url = 'https://drive.google.com/file/d/18sqQtv04DcyymbsO_35mc4HWdMfVeGWx/view?usp=sharing'; 
 
   // Create an anchor element
   var anchor = document.createElement('a');
